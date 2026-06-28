@@ -1,0 +1,6 @@
+{
+  "name": "WashUp",
+  "description": "Premium on-demand laundry, dry cleaning, and shoe care services with free doorstep pickup and delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

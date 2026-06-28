@@ -1,0 +1,36 @@
+{
+  "entities": {
+    "reviews": {
+      "title": "Customer Review",
+      "description": "Reviews submitted by customers",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "string"
+        },
+        "avatarUrl": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        }
+      },
+      "required": ["name", "location", "rating", "text"]
+    }
+  },
+  "firestore": {
+    "/reviews/{reviewId}": {
+      "schema": "reviews",
+      "description": "List of reviews submitted by visitors"
+    }
+  }
+}
