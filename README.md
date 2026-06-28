@@ -1,2 +1,0 @@
-# washup
-Offical Washup Website
